@@ -15,8 +15,8 @@ class HTMLElement:
   def getElementById(self, id):
     for child in self.innerHTML:
       if child.id == id:
-        return child;
-    return None;
+        return child
+    return None
 
   def to_string(self, level=0):
     indent = '  ' * level
