@@ -1,0 +1,9 @@
+.colorful {
+  color: red;
+  font-weight: bold;
+}
+
+.colorful::before {
+  content: ">> ";
+}
+
