@@ -1,2 +1,5 @@
 /.git
 .DS_Store
+/__pycache__
+/src
+defaults.py
